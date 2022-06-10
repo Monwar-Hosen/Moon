@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+body {
+	background: linear-gradient(to right, rgba(210, 164, 57, 0.9), rgba(205, 61, 61, 0.9)), url('../img/bg.jpg');
+	background-size: cover;
+	font-family: 'Lato', sans-serif;
+}
+/* common style */
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+}
+.container {
+	width: 90%;
+	margin: auto;
+}
+.fixed {
+	position: fixed;
+	top: 0;
+	display: block;
+	width: 80%;
+	background: #fff;
+    z-index: 9999;
+}
+h2 {
+    font-size: 40px;
+    font-weight: 300;
+    width: 60%;
+    margin: 0px auto;
+}
+.clear-both {
+    clear: both;
+}
+/*header style start*/
+header {
+	background: url('../img/hero-2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/*header style end*/
+/*nav style start*/
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #D95136;
+}
+.navbar-brand {
+	font-size: 40px;
+}
+/*nav style end*/
+/*banner style start*/
+.banner .banner-content {
+	width: 50%;
+	padding: 150px 0;
+	margin: 0 auto;
+}
+.banner .banner-content h1 {
+    font-weight: 300;
+   font-family: 'Lato', sans-serif;
+}
+.banner .banner-content p {
+    font-size: 18px;
+    font-weight: 300;
+}
+/*banner style end*/
+/*content section start*/
+.content {
+	background: #fff;
+}
+/*content-heading start*/
+.content-heading p {
+    font-size: 18px;
+    font-weight: 300;
+}
+ 
+/*content-heading end*/
+/*content-details start*/
+.card {
+    border: 0px solid rgba(0,0,0,.125);
+    border-radius: 0;
+}
+.card-title {
+    margin-bottom: 1rem;
+}
+.content .content-details .card-img-top {
+  width: 50%;
+  margin: 0px auto;
+}
+.content-details .single-item .card-body {
+  padding: 0rem 1rem 1rem;
+}
+.content-details .single-item .card-text {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+}
+.content-details .single-item .card-body a {
+    text-decoration: none;
+    color: #f15e75;
+}
+.content-details .single-item .card-body a:hover {
+	color: #D05165;
+}
+.content-details .row>* {
+  padding: 0px !important;  
+}
+/*content-details end*/
+/*content section end*/
+/*counter section start*/
+.counter .single-item .lnr {
+  font-size: 40px;
+  color: white;
+}
+.counter .single-item h4 {
+  font-size: 70px;
+  color: white;
+}
+.counter .single-item h6 {
+  color: white;
+  letter-spacing: 2px;
+}
+/*counter section end*/
+/*services section start*/
+.services {
+	background: #fff;
+}
+.services .services-content p {
+    font-size: 18px;
+    font-weight: 300;
+    width: 59%;
+    margin: auto;
+}
+.services .single-item .lnr {
+	font-size: 50px;
+}
+.services .single-item h4 {
+	margin-top: 20px;
+}
+/*services section end*/
+/*blog section start*/
+.blog {
+	background: #F7F8F9;
+}
+.blog .blog-content p {
+    font-size: 18px;
+    font-weight: 300;
+}
+.blog .single-blog .card-body a {
+    text-decoration: none;
+    color: #F15E75;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+.blog .single-blog .card-body h3 a {
+    text-decoration: none;
+    color: #000;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+/*blog section end*/
+/*portfolio section start*/
+.portfolio {
+	background: #fff;
+}
+.portfolio .portfolio-content p {
+	font-size: 18px;
+	font-weight: 300;
+}
+.single-portfolio {
+    position: relative;
+}
+.single-portfolio .portfolio-inner {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.2);
+    visibility: hidden;
+}
+.single-portfolio:hover .portfolio-inner {
+    visibility: visible;
+    transition: .5s;
+}
+.portfolio-holder ul {
+    list-style: none;
+    text-align: center;
+}
+.portfolio-holder ul li {
+    display: inline;
+    padding: 0 10px;
+}
+.portfolio-holder ul li a {
+    text-decoration: none;
+    color: #f15e75;
+}
+/*portfolio section end*/
+/*clients section start*/
+.clients {
+	background: #F7F8F9;
+}
+/*clients section end*/
+/*footer start*/
+footer {
+	background: #fff;
+	border-top: 1px solid #C4C4C4;
+}
+footer h6 a {
+	text-decoration: none;
+	color: #C44C44;
+}
+footer .social-icon i {
+    color: #C44C44;
+    margin: 10px;
+    font-size: 25px;
+}
+footer .social-icon i:hover {
+    color: #D05165;
+}
+/*footer end*/
